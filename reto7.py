@@ -29,7 +29,7 @@ while repetir=="si" or repetir=="SI":
         elif saldo<0:
             print("saldos insuficientes")
         else:
-            break32.0
+            break
     elif moneda==2 and eleccion==2:
         saldo=saldo+apuesta
         juego=juego+1
