@@ -24,6 +24,12 @@ while repetir=="si" or repetir=="SI":
         saldo=saldo-apuesta
         juego=juego+1
         print("salio cara, usted escogio sello perdiste!!")
+        if saldo>0:
+            print("puede seguir jugando")
+        elif saldo<0:
+            print("saldos insuficientes")
+        else:
+            break32.0
     elif moneda==2 and eleccion==2:
         saldo=saldo+apuesta
         juego=juego+1
@@ -32,6 +38,12 @@ while repetir=="si" or repetir=="SI":
         saldo=saldo-apuesta
         juego=juego+1
         print("salio sello, usted escogio cara perdiste!!")
+        if saldo>0:
+            print("puede seguir jugando")
+        elif saldo<0:
+            print("saldos insuficientes")
+        else:
+            break
     elif eleccion!=1 or eleccion!=2:
         print("digitaste una opcion incorrecta")
     else:
